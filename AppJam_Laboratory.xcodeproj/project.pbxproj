@@ -115,7 +115,8 @@
 				87646491294B4C180076DCB9 /* Application */,
 				87646492294B4C220076DCB9 /* Resource */,
 				87646494294B4C830076DCB9 /* Network */,
-				87646493294B4C330076DCB9 /* Source */,
+				87B66224294F836B00B6FFA9 /* Data */,
+				87646493294B4C330076DCB9 /* Presentation */,
 			);
 			path = AppJam_Laboratory;
 			sourceTree = "<group>";
@@ -134,33 +135,31 @@
 			isa = PBXGroup;
 			children = (
 				8764647F2948A3EC0076DCB9 /* Assets.xcassets */,
-				87B66213294F538900B6FFA9 /* LaunchScreen */,
+				87646495294B4DD90076DCB9 /* Splash.storyboard */,
 				87B66212294F537B00B6FFA9 /* Secret */,
 				87B66211294F537400B6FFA9 /* Extension */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		87646493294B4C330076DCB9 /* Source */ = {
+		87646493294B4C330076DCB9 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				87B661E1294B7D2100B6FFA9 /* Base */,
-				876464A4294B51370076DCB9 /* MusicRegister */,
-				876464A3294B50E60076DCB9 /* MusicList */,
-				876464A2294B50DD0076DCB9 /* SignUp */,
-				876464A1294B50CF0076DCB9 /* SignIn */,
+				87B66229294F8D8900B6FFA9 /* Auth */,
 				876464A0294B50BD0076DCB9 /* Chat */,
+				87B66228294F8D7E00B6FFA9 /* Music */,
 			);
-			path = Source;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		87646494294B4C830076DCB9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				876464A5294B59F00076DCB9 /* Base */,
-				876464AA294B5B180076DCB9 /* Service */,
-				876464AB294B5B200076DCB9 /* API */,
-				876464B6294B63260076DCB9 /* DataModel */,
+				87B6621E294F823C00B6FFA9 /* Auth */,
+				87B66221294F825800B6FFA9 /* Chat */,
+				87B66222294F825C00B6FFA9 /* Music */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -218,56 +217,11 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		876464AA294B5B180076DCB9 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				87B661FB294F4EAF00B6FFA9 /* Auth */,
-				87B661FE294F4EC700B6FFA9 /* Music */,
-				876464BB294B63F00076DCB9 /* Chat */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		876464AB294B5B200076DCB9 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				87B66204294F4F0000B6FFA9 /* Auth */,
-				87B66201294F4EEC00B6FFA9 /* Music */,
-				876464BA294B63E80076DCB9 /* Chat */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		876464B6294B63260076DCB9 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				87B661F5294F4E3200B6FFA9 /* Music */,
-				87B661F4294F4E2E00B6FFA9 /* Auth */,
-				876464B9294B63D80076DCB9 /* Chat */,
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
 		876464B9294B63D80076DCB9 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				876464B7294B63CE0076DCB9 /* ChatListResult.swift */,
-			);
-			path = Chat;
-			sourceTree = "<group>";
-		};
-		876464BA294B63E80076DCB9 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				876464AE294B5B470076DCB9 /* ChatAPI.swift */,
-			);
-			path = Chat;
-			sourceTree = "<group>";
-		};
-		876464BB294B63F00076DCB9 /* Chat */ = {
-			isa = PBXGroup;
-			children = (
-				876464AC294B5B340076DCB9 /* ChatService.swift */,
+				87B6622D294F8F7700B6FFA9 /* Model */,
+				87B6622C294F8F6D00B6FFA9 /* APIModel */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -284,8 +238,8 @@
 		87B661F4294F4E2E00B6FFA9 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				87B6621A294F558000B6FFA9 /* SignUpResult.swift */,
-				87B6621C294F566A00B6FFA9 /* SignInResult.swift */,
+				87B6622A294F8F5300B6FFA9 /* Model */,
+				87B6622B294F8F5800B6FFA9 /* APIModel */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -293,42 +247,10 @@
 		87B661F5294F4E3200B6FFA9 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				87B66214294F556200B6FFA9 /* MusicListResult.swift */,
-				87B66216294F556D00B6FFA9 /* MusicRegisterResult.swift */,
+				87B6622E294F8F7D00B6FFA9 /* Model */,
+				87B6622F294F8F8200B6FFA9 /* APIModel */,
 			);
 			path = Music;
-			sourceTree = "<group>";
-		};
-		87B661FB294F4EAF00B6FFA9 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				87B661FC294F4EC200B6FFA9 /* AuthService.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		87B661FE294F4EC700B6FFA9 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				87B661FF294F4EDC00B6FFA9 /* MusicService.swift */,
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
-		87B66201294F4EEC00B6FFA9 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				87B66202294F4EF600B6FFA9 /* MusicAPI.swift */,
-			);
-			path = Music;
-			sourceTree = "<group>";
-		};
-		87B66204294F4F0000B6FFA9 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				87B66205294F4F0600B6FFA9 /* AuthAPI.swift */,
-			);
-			path = Auth;
 			sourceTree = "<group>";
 		};
 		87B66211294F537400B6FFA9 /* Extension */ = {
@@ -347,12 +269,106 @@
 			path = Secret;
 			sourceTree = "<group>";
 		};
-		87B66213294F538900B6FFA9 /* LaunchScreen */ = {
+		87B6621E294F823C00B6FFA9 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				87646495294B4DD90076DCB9 /* Splash.storyboard */,
+				87B661FC294F4EC200B6FFA9 /* AuthService.swift */,
+				87B66205294F4F0600B6FFA9 /* AuthAPI.swift */,
 			);
-			path = LaunchScreen;
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		87B66221294F825800B6FFA9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				876464AC294B5B340076DCB9 /* ChatService.swift */,
+				876464AE294B5B470076DCB9 /* ChatAPI.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		87B66222294F825C00B6FFA9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				87B661FF294F4EDC00B6FFA9 /* MusicService.swift */,
+				87B66202294F4EF600B6FFA9 /* MusicAPI.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		87B66224294F836B00B6FFA9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				87B661F4294F4E2E00B6FFA9 /* Auth */,
+				876464B9294B63D80076DCB9 /* Chat */,
+				87B661F5294F4E3200B6FFA9 /* Music */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		87B66228294F8D7E00B6FFA9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				876464A3294B50E60076DCB9 /* MusicList */,
+				876464A4294B51370076DCB9 /* MusicRegister */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		87B66229294F8D8900B6FFA9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				876464A2294B50DD0076DCB9 /* SignUp */,
+				876464A1294B50CF0076DCB9 /* SignIn */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		87B6622A294F8F5300B6FFA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87B6622B294F8F5800B6FFA9 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				87B6621A294F558000B6FFA9 /* SignUpResult.swift */,
+				87B6621C294F566A00B6FFA9 /* SignInResult.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		87B6622C294F8F6D00B6FFA9 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				876464B7294B63CE0076DCB9 /* ChatListResult.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		87B6622D294F8F7700B6FFA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87B6622E294F8F7D00B6FFA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87B6622F294F8F8200B6FFA9 /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				87B66214294F556200B6FFA9 /* MusicListResult.swift */,
+				87B66216294F556D00B6FFA9 /* MusicRegisterResult.swift */,
+			);
+			path = APIModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
