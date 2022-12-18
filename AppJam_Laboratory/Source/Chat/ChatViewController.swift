@@ -64,7 +64,7 @@ class ChatListViewController : BaseViewController{
     
     private func getChatList(){
         ChatAPI.shared.getChatList { result in
-            guard let result = self.guardFaliResult(result) as? ChatListResult else { return }
+            guard let result = self.validateResult(result) as? ChatListResult else { return }
             
             let url = URL(string: result.imageUrl)
             self.chatImageView.kf.setImage(with: url)

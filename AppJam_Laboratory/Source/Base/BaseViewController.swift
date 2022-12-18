@@ -36,13 +36,13 @@ class BaseViewController : UIViewController{
     
     //MARK: - Action Method
     
-    func guardFaliResult(_ result: NetworkResult<Any>) -> Any?{
+    func validateResult(_ result: NetworkResult<Any>) -> Any?{
         switch result{
         case .success(let data):
             print("성공했습니다.")
             return data
         case .requestErr(let message):
-            presentBottomAlert(message: message as! String)
+            presentBottomAlert(message: message)
         case .pathErr:
             presentBottomAlert(message: "잘못된 경로입니다.")
         case .serverErr:
