@@ -21,7 +21,6 @@ class BaseAPI{
             return .pathErr
         }
         
-    
         switch statusCode {
         case 200:
             guard decodedData.data != nil else {

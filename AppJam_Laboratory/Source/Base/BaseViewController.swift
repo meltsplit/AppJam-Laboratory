@@ -36,7 +36,7 @@ class BaseViewController : UIViewController{
     
     //MARK: - Action Method
     
-    func successOrToast(_ result: NetworkResult<Any>) -> Any?{
+    func guardFaliResult(_ result: NetworkResult<Any>) -> Any?{
         switch result{
         case .success(let data):
             print("성공했습니다.")

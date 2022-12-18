@@ -9,15 +9,16 @@
 import UIKit
 import SnapKit
 import Then
+import Kingfisher
 
 class ChatListViewController : BaseViewController{
     
     //MARK: - Properties
     
+    //MARK: - UI Components
+    
     private let chatListButton = UIButton()
     private let chatImageView = UIImageView()
-    
-    //MARK: - UI Components
     
     //MARK: - Life Cycle
     
@@ -63,22 +64,11 @@ class ChatListViewController : BaseViewController{
     
     private func getChatList(){
         ChatAPI.shared.getChatList { result in
-            guard let result = self.successOrToast(result) as? ChatListResult else { return }
+            guard let result = self.guardFaliResult(result) as? ChatListResult else { return }
             
-            
-            print(result.imageUrl)
             let url = URL(string: result.imageUrl)
-                    DispatchQueue.global().async { [weak self] in
-                        if let data = try? Data(contentsOf: url!) {
-                            if let image = UIImage(data: data) {
-                                DispatchQueue.main.async {
-                                    self?.chatImageView.image = image
-                                }
-                            }
-                        }
-                    }
+            self.chatImageView.kf.setImage(with: url)
         }
-        
         
     }
     
@@ -86,7 +76,6 @@ class ChatListViewController : BaseViewController{
     //MARK: - Action Method
     
     @objc func chatListButtonDidTap(){
-        print("API 연결 시도합니다")
         getChatList()
     }
     

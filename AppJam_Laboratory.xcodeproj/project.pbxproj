@@ -27,6 +27,20 @@
 		87B661E0294B7C4C00B6FFA9 /* MoyaLoggingPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B661DF294B7C4C00B6FFA9 /* MoyaLoggingPlugin.swift */; };
 		87B661E4294B7D2F00B6FFA9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B661E3294B7D2F00B6FFA9 /* BaseViewController.swift */; };
 		87B661E6294DA3DA00B6FFA9 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B661E5294DA3DA00B6FFA9 /* UIViewController+.swift */; };
+		87B661E9294F4B4600B6FFA9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 87B661E8294F4B4600B6FFA9 /* Kingfisher */; };
+		87B661FD294F4EC200B6FFA9 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B661FC294F4EC200B6FFA9 /* AuthService.swift */; };
+		87B66200294F4EDC00B6FFA9 /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B661FF294F4EDC00B6FFA9 /* MusicService.swift */; };
+		87B66203294F4EF600B6FFA9 /* MusicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B66202294F4EF600B6FFA9 /* MusicAPI.swift */; };
+		87B66206294F4F0600B6FFA9 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B66205294F4F0600B6FFA9 /* AuthAPI.swift */; };
+		87B66208294F501D00B6FFA9 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B66207294F501D00B6FFA9 /* BaseTabBarController.swift */; };
+		87B6620A294F506A00B6FFA9 /* MusicRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B66209294F506A00B6FFA9 /* MusicRegisterViewController.swift */; };
+		87B6620C294F508A00B6FFA9 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6620B294F508A00B6FFA9 /* MusicListViewController.swift */; };
+		87B6620E294F509100B6FFA9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6620D294F509100B6FFA9 /* SignUpViewController.swift */; };
+		87B66210294F509800B6FFA9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6620F294F509800B6FFA9 /* SignInViewController.swift */; };
+		87B66215294F556200B6FFA9 /* MusicListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B66214294F556200B6FFA9 /* MusicListResult.swift */; };
+		87B66217294F556D00B6FFA9 /* MusicRegisterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B66216294F556D00B6FFA9 /* MusicRegisterResult.swift */; };
+		87B6621B294F558000B6FFA9 /* SignUpResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6621A294F558000B6FFA9 /* SignUpResult.swift */; };
+		87B6621D294F566A00B6FFA9 /* SignInResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6621C294F566A00B6FFA9 /* SignInResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +63,19 @@
 		87B661DF294B7C4C00B6FFA9 /* MoyaLoggingPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPlugin.swift; sourceTree = "<group>"; };
 		87B661E3294B7D2F00B6FFA9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		87B661E5294DA3DA00B6FFA9 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		87B661FC294F4EC200B6FFA9 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		87B661FF294F4EDC00B6FFA9 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		87B66202294F4EF600B6FFA9 /* MusicAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAPI.swift; sourceTree = "<group>"; };
+		87B66205294F4F0600B6FFA9 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		87B66207294F501D00B6FFA9 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		87B66209294F506A00B6FFA9 /* MusicRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRegisterViewController.swift; sourceTree = "<group>"; };
+		87B6620B294F508A00B6FFA9 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		87B6620D294F509100B6FFA9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		87B6620F294F509800B6FFA9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		87B66214294F556200B6FFA9 /* MusicListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListResult.swift; sourceTree = "<group>"; };
+		87B66216294F556D00B6FFA9 /* MusicRegisterResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRegisterResult.swift; sourceTree = "<group>"; };
+		87B6621A294F558000B6FFA9 /* SignUpResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResult.swift; sourceTree = "<group>"; };
+		87B6621C294F566A00B6FFA9 /* SignInResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B661E9294F4B4600B6FFA9 /* Kingfisher in Frameworks */,
 				87646499294B4F720076DCB9 /* SnapKit in Frameworks */,
 				8764649C294B4F7C0076DCB9 /* Then in Frameworks */,
 				8764649F294B4FA50076DCB9 /* Moya in Frameworks */,
@@ -105,10 +133,10 @@
 		87646492294B4C220076DCB9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				87646495294B4DD90076DCB9 /* Splash.storyboard */,
 				8764647F2948A3EC0076DCB9 /* Assets.xcassets */,
-				876464B4294B62280076DCB9 /* Secret.swift */,
-				87B661E5294DA3DA00B6FFA9 /* UIViewController+.swift */,
+				87B66213294F538900B6FFA9 /* LaunchScreen */,
+				87B66212294F537B00B6FFA9 /* Secret */,
+				87B66211294F537400B6FFA9 /* Extension */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -148,6 +176,7 @@
 		876464A1294B50CF0076DCB9 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				87B6620F294F509800B6FFA9 /* SignInViewController.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -155,6 +184,7 @@
 		876464A2294B50DD0076DCB9 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				87B6620D294F509100B6FFA9 /* SignUpViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -162,6 +192,7 @@
 		876464A3294B50E60076DCB9 /* MusicList */ = {
 			isa = PBXGroup;
 			children = (
+				87B6620B294F508A00B6FFA9 /* MusicListViewController.swift */,
 			);
 			path = MusicList;
 			sourceTree = "<group>";
@@ -169,6 +200,7 @@
 		876464A4294B51370076DCB9 /* MusicRegister */ = {
 			isa = PBXGroup;
 			children = (
+				87B66209294F506A00B6FFA9 /* MusicRegisterViewController.swift */,
 			);
 			path = MusicRegister;
 			sourceTree = "<group>";
@@ -189,6 +221,8 @@
 		876464AA294B5B180076DCB9 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				87B661FB294F4EAF00B6FFA9 /* Auth */,
+				87B661FE294F4EC700B6FFA9 /* Music */,
 				876464BB294B63F00076DCB9 /* Chat */,
 			);
 			path = Service;
@@ -197,6 +231,8 @@
 		876464AB294B5B200076DCB9 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				87B66204294F4F0000B6FFA9 /* Auth */,
+				87B66201294F4EEC00B6FFA9 /* Music */,
 				876464BA294B63E80076DCB9 /* Chat */,
 			);
 			path = API;
@@ -205,6 +241,8 @@
 		876464B6294B63260076DCB9 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				87B661F5294F4E3200B6FFA9 /* Music */,
+				87B661F4294F4E2E00B6FFA9 /* Auth */,
 				876464B9294B63D80076DCB9 /* Chat */,
 			);
 			path = DataModel;
@@ -238,8 +276,83 @@
 			isa = PBXGroup;
 			children = (
 				87B661E3294B7D2F00B6FFA9 /* BaseViewController.swift */,
+				87B66207294F501D00B6FFA9 /* BaseTabBarController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		87B661F4294F4E2E00B6FFA9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				87B6621A294F558000B6FFA9 /* SignUpResult.swift */,
+				87B6621C294F566A00B6FFA9 /* SignInResult.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		87B661F5294F4E3200B6FFA9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				87B66214294F556200B6FFA9 /* MusicListResult.swift */,
+				87B66216294F556D00B6FFA9 /* MusicRegisterResult.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		87B661FB294F4EAF00B6FFA9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				87B661FC294F4EC200B6FFA9 /* AuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		87B661FE294F4EC700B6FFA9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				87B661FF294F4EDC00B6FFA9 /* MusicService.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		87B66201294F4EEC00B6FFA9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				87B66202294F4EF600B6FFA9 /* MusicAPI.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		87B66204294F4F0000B6FFA9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				87B66205294F4F0600B6FFA9 /* AuthAPI.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		87B66211294F537400B6FFA9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				87B661E5294DA3DA00B6FFA9 /* UIViewController+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		87B66212294F537B00B6FFA9 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				876464B4294B62280076DCB9 /* Secret.swift */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
+		87B66213294F538900B6FFA9 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				87646495294B4DD90076DCB9 /* Splash.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +375,7 @@
 				87646498294B4F720076DCB9 /* SnapKit */,
 				8764649B294B4F7C0076DCB9 /* Then */,
 				8764649E294B4FA50076DCB9 /* Moya */,
+				87B661E8294F4B4600B6FFA9 /* Kingfisher */,
 			);
 			productName = AppJam_Laboratory;
 			productReference = 876464732948A3EB0076DCB9 /* AppJam_Laboratory.app */;
@@ -295,6 +409,7 @@
 				87646497294B4F720076DCB9 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				8764649A294B4F7C0076DCB9 /* XCRemoteSwiftPackageReference "Then" */,
 				8764649D294B4FA50076DCB9 /* XCRemoteSwiftPackageReference "Moya" */,
+				87B661E7294F4B4600B6FFA9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 876464742948A3EB0076DCB9 /* Products */;
 			projectDirPath = "";
@@ -323,19 +438,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				8764647B2948A3EB0076DCB9 /* ChatViewController.swift in Sources */,
+				87B6620A294F506A00B6FFA9 /* MusicRegisterViewController.swift in Sources */,
 				876464B5294B62280076DCB9 /* Secret.swift in Sources */,
 				87B661E6294DA3DA00B6FFA9 /* UIViewController+.swift in Sources */,
+				87B661FD294F4EC200B6FFA9 /* AuthService.swift in Sources */,
 				876464B1294B5B7C0076DCB9 /* BaseTargetType.swift in Sources */,
+				87B6620E294F509100B6FFA9 /* SignUpViewController.swift in Sources */,
+				87B66217294F556D00B6FFA9 /* MusicRegisterResult.swift in Sources */,
+				87B6621D294F566A00B6FFA9 /* SignInResult.swift in Sources */,
 				876464AD294B5B340076DCB9 /* ChatService.swift in Sources */,
 				876464B8294B63CE0076DCB9 /* ChatListResult.swift in Sources */,
 				87B661E4294B7D2F00B6FFA9 /* BaseViewController.swift in Sources */,
 				876464772948A3EB0076DCB9 /* AppDelegate.swift in Sources */,
+				87B66215294F556200B6FFA9 /* MusicListResult.swift in Sources */,
 				876464A9294B5A2F0076DCB9 /* GenericResponse.swift in Sources */,
+				87B6621B294F558000B6FFA9 /* SignUpResult.swift in Sources */,
 				876464B3294B5ECC0076DCB9 /* APIEnviroment.swift in Sources */,
 				876464792948A3EB0076DCB9 /* SceneDelegate.swift in Sources */,
+				87B66203294F4EF600B6FFA9 /* MusicAPI.swift in Sources */,
 				876464BD294B710F0076DCB9 /* BaseAPI.swift in Sources */,
+				87B66206294F4F0600B6FFA9 /* AuthAPI.swift in Sources */,
+				87B66208294F501D00B6FFA9 /* BaseTabBarController.swift in Sources */,
 				876464A7294B5A020076DCB9 /* NetworkResult.swift in Sources */,
 				876464AF294B5B470076DCB9 /* ChatAPI.swift in Sources */,
+				87B66210294F509800B6FFA9 /* SignInViewController.swift in Sources */,
+				87B66200294F4EDC00B6FFA9 /* MusicService.swift in Sources */,
+				87B6620C294F508A00B6FFA9 /* MusicListViewController.swift in Sources */,
 				87B661E0294B7C4C00B6FFA9 /* MoyaLoggingPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +691,14 @@
 				minimumVersion = 15.0.0;
 			};
 		};
+		87B661E7294F4B4600B6FFA9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -580,6 +716,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8764649D294B4FA50076DCB9 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
+		};
+		87B661E8294F4B4600B6FFA9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B661E7294F4B4600B6FFA9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
